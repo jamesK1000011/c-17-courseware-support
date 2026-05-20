@@ -44,7 +44,7 @@ If a future version of the app adds any form of data collection, analytics, cras
 
 ## Contact
 
-For questions about this privacy policy, contact `<contact-email>`.
+For questions about this privacy policy, contact `<j.l.king.1000011@gmail.com>`.
 
 ---
 
