@@ -37,29 +37,16 @@ This is rare. Try in order:
 3. If the crash persists, contact support with your iPad model and iOS version.
 4. As a last resort, delete and reinstall the app. Your data will be lost unless you have a backup.
 
-### Course playback has audio glitches or stuttering.
-
-C-17 Courseware plays the original SWF lesson modules through a bundled Ruffle WebAssembly runtime. Older lessons (especially ones with dense slide audio) can occasionally glitch. If a specific lesson is unplayable, use **Submit Feedback** with the lesson ID — we keep a known-bad list to triage.
-
 ### The app says my course `.zip` is unsupported.
 
-The app validates course structure on import. A package needs:
+The app validates course structure on import. A package needs need the correct course files and structure at import.
 
-- A top-level `Content/` folder.
-- A `Content/courseInfo.xml`.
-- One or more lesson `.xml` files under `Content/XML/`.
-- The matching `.swf` modules under `Content/SWF/`.
-
-If your `.zip` is missing one of these, re-export it from the source authoring tool and try again. The exact failure reason is logged — see **Profile → Submit Feedback → Attach Logs** to share the import log.
+If your `.zip` is missing one of these, re-download it from offical sources and try again. The exact failure reason is logged — see **Profile → Submit Feedback → Attach Logs** to share the import log.
 
 ## Contact
 
-For anything not covered above, email `<contact-email>` or use **Profile → Submit Feedback** inside the app (which attaches the app log automatically).
+For anything not covered above, email `<j.l.king.1000011@gmail.com>` or use **Profile → Submit Feedback** inside the app (which attaches the app log automatically).
 
 ## Privacy
 
-C-17 Courseware collects no data and makes no network requests. See the [privacy policy](privacy.html) for details.
-
-## App Store listing
-
-C-17 Courseware on the App Store: `<app-store-url-after-approval>`
+C-17 Courseware collects no data and makes no network requests. See the [privacy policy](privacy.md) for details.
