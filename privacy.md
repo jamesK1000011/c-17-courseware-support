@@ -1,11 +1,11 @@
 # C-17 Courseware — Privacy Policy
 
-**Version 1.1**
-**Effective 2026-05-19**
+**Version 1.2**
+**Effective 2026-05-22**
 
 ## Summary
 
-C-17 Courseware does not collect, transmit, or share any personal data. All course content, test attempts, profile information, and backups are stored only on the user's device.
+C-17 Courseware does not collect, transmit, or share any personal data. All course content, test attempts, profile information, and backups are stored only on the user's device. The app is currently distributed to stakeholders through Apple's **TestFlight** beta program; future distribution is planned through unit-managed MDM (e.g., INTUNE). Neither channel changes the policy below — no data leaves the device unless you explicitly export it yourself.
 
 ## What we do not do
 
@@ -33,6 +33,8 @@ You can export any of this data yourself via the in-app **Manage Data** screen, 
 ## What you choose to share
 
 The in-app **Submit Feedback** button (and the **Submit Testing Log** button on TestFlight builds) opens your default mail app with a pre-filled message draft. We see only what you choose to send to the support email address; we do not capture or relay anything in the background. You may delete attached logs from the draft before sending.
+
+On TestFlight builds, Apple's own **TestFlight feedback** mechanism (the prompt that appears after you take a screenshot inside the app) is delivered directly to the developer via Apple. That submission is governed by Apple's standard TestFlight terms; the developer receives only the screenshot and any optional comment you add. See <https://www.apple.com/legal/internet-services/itunes/testflight.html> for Apple's full TestFlight terms.
 
 ## Children
 
