@@ -86,13 +86,32 @@ any account inside C-17 Courseware itself.
 
 ## First launch
 
-The app opens to a tab bar. The most important tabs for first-time setup are
-**Courses**, **Practice**, and **Profile**. All three are visible at the
-top (iPad) or bottom (iPhone) of every screen.
+The first launch walks you through two short prompts before you land on
+the main tab bar:
 
-Before importing any content, jump to the **Profile** tab and enter your
-**last name** and **middle initial**. Those values are used to label test
-exports for TMS. They are stored only on your device.
+1. **Disclaimer notice** — a one-time alert explaining the app is an
+   unofficial training aid (not affiliated with the USAF, Boeing, or any
+   official training program). Tap **I Understand** to dismiss.
+2. **Student Profile prompt** — a non-dismissable sheet asks for your
+   identity. You have two options:
+   - **Enter your name** (Last / First / Middle Initial) and tap
+     **Continue**. Those values label TMS exports and stay on the
+     device.
+   - **Import Backup** — restore from a `.cbtbk` file if you're moving
+     from another device. This brings your name, attempts, courses, and
+     mastery stats over in one step. Details in the
+     [Moving to a new iPad or iPhone](#moving-to-a-new-ipad-or-iphone)
+     section below.
+
+After that you land on the tab bar — **Courses**, **Practice**, and
+**Profile**, visible at the top (iPad) or bottom (iPhone) of every
+screen.
+
+> **Tooltips on first visit.** Each tab fires a short coachmark tour
+> the first time you open it (Courses, Practice, Profile, plus a few
+> deeper screens — Lesson, Test, Custom Course Builder, Manage Data).
+> Tap through to dismiss; replay any time from
+> **Profile → Replay App Tour**.
 
 <p align="center">
   <img src="screenshots/07_profile_ipad.png" alt="Profile tab" width="300">
