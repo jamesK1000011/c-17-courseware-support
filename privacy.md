@@ -1,4 +1,16 @@
-# C-17 Courseware — Privacy Policy
+---
+title: Privacy Policy
+description: No data collection, no tracking, no network calls.
+---
+
+<p align="center">
+  <img src="screenshots/app_icon.png" alt="C-17 Courseware app icon" width="48">
+</p>
+
+<div class="pdf-title" style="display: none;">
+  <h1>C-17 Courseware — Privacy Policy</h1>
+  <p>No data collection, no tracking, no network calls.</p>
+</div>
 
 **Version 1.2**
 **Effective 2026-05-22**
@@ -47,6 +59,13 @@ If a future version of the app adds any form of data collection, analytics, cras
 ## Contact
 
 For questions about this privacy policy, contact `<j.l.king.1000011@gmail.com>`.
+
+## Open source acknowledgments
+
+C-17 Courseware uses [Ruffle](https://ruffle.rs), an open-source Flash
+Player emulator, dual-licensed under MIT and Apache-2.0. See the
+[open source acknowledgments](https://jamesk1000011.github.io/c-17-courseware-support/attribution.html) page for the full credit
+and license notices.
 
 ---
 

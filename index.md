@@ -1,4 +1,16 @@
-# C-17 Courseware — Support
+---
+title: Support
+description: Install, import courses, take tests, export to TMS.
+---
+
+<p align="center">
+  <img src="screenshots/app_icon.png" alt="C-17 Courseware app icon" width="48">
+</p>
+
+<div class="pdf-title" style="display: none;">
+  <h1>C-17 Courseware — Support</h1>
+  <p>Install, import courses, take tests, export to TMS.</p>
+</div>
 
 C-17 Courseware is a native iPad and iPhone app for running C-17 Phase CBT
 training packages. It imports the same course `.zip` files your unit already
@@ -82,7 +94,9 @@ Before importing any content, jump to the **Profile** tab and enter your
 **last name** and **middle initial**. Those values are used to label test
 exports for TMS. They are stored only on your device.
 
-<img src="screenshots/07_profile_ipad.png" alt="Profile tab" width="720">
+<p align="center">
+  <img src="screenshots/07_profile_ipad.png" alt="Profile tab" width="300">
+</p>
 
 ---
 
@@ -93,11 +107,7 @@ You bring the course `.zip` files from your unit's archive and import them.
 
 ### Get the .zip onto your device
 
-Any of these work:
-
-- **P1Chat** the `.zip` from P1Chat and save to files.
-- **Email** the `.zip` to yourself and save the attachment.
-- **Files app** — copy the `.zip` into On My iPad / Goodreader
+Get the .zip courseware onto your device using secure means (i.e P1Chat).
 
 ### Import it
 
@@ -105,12 +115,16 @@ Any of these work:
 2. Tap the **import** button — the down-arrow icon in the top toolbar.
 3. Pick the `.zip` in the file picker.
 
-<img src="screenshots/01_Import_ipad.png" alt="Importing a course" width="720">
+<p align="center">
+  <img src="screenshots/01_Import_ipad.png" alt="Importing a course" width="300">
+</p>
 
 The course appears in the list within a few seconds, with all its lessons
 and modules expanded inside. You can import as many courses as you need.
 
-<img src="screenshots/02_courses_ipad.png" alt="Courses list after import" width="720">
+<p align="center">
+  <img src="screenshots/02_courses_ipad.png" alt="Courses list after import" width="300">
+</p>
 
 > **iPhone note:** the flow is identical on iPhone, with the tab bar at the
 > bottom of the screen. Same import button (down-arrow) in the top toolbar.
@@ -121,7 +135,9 @@ and modules expanded inside. You can import as many courses as you need.
 
 Tap any course in the list to see its lessons.
 
-<img src="screenshots/03_lesson_list_ipad.png" alt="Lesson list inside a course" width="720">
+<p align="center">
+  <img src="screenshots/03_lesson_list_ipad.png" alt="Lesson list inside a course" width="300">
+</p>
 
 Tap a lesson to open it. You will see:
 
@@ -130,11 +146,13 @@ Tap a lesson to open it. You will see:
 - The lesson's **graded test**.
 - A summary of your attempt history on this lesson.
 
-<img src="screenshots/04_lesson_detail_ipad.png" alt="Lesson detail with modules and test" width="720">
+<p align="center">
+  <img src="screenshots/04_lesson_detail_ipad.png" alt="Lesson detail with modules and test" width="300">
+</p>
 
 Tap a **module** to play it. Modules run natively inside the app — no Flash
 player, no external browser, no network call. When you reach the end of a
-module, tap **Done** in the corner to return to the lesson list.
+module, tap **Exit** in the corner to return to the lesson list.
 
 You can leave and re-open a module at any time. Progress is restored to where
 you left off.
@@ -168,8 +186,8 @@ with the fresh result, so the `Data.zip` in the folder is always the most
 recent passing record for that course.
 
 To hand the result off to TMS, open the **Files** app, drill down to the
-course folder above, and AirDrop, email, or move `Data.zip` to wherever
-your unit's TMS workflow expects it.
+course folder above, and email or move `Data.zip` to wherever your unit's
+TMS workflow expects it.
 
 ### 2. Manual export — "Export Results for TMS" button
 
@@ -179,7 +197,7 @@ without finishing the whole course again, or if you missed the auto-export
 dialog.
 
 The app prompts for your Student ID, builds a zip named `Data.zip`, and opens
-the iOS share sheet so you can AirDrop, email, or **Save to Files** yourself.
+the iOS share sheet so you can email or **Save to Files** yourself.
 This path does **not** write to the `Performance` folder — wherever you send
 it via the share sheet is the only copy.
 
@@ -188,9 +206,9 @@ it via the share sheet is the only copy.
 - **First time finishing a course (or refreshing the official record)** →
   just complete the last lesson; the auto-export drops `Data.zip` into
   `Performance/<Course Title>/` and is the recommended path of record.
-- **Need to resend a result somewhere specific (different folder, AirDrop
-  to a co-worker, attach a different Student ID, etc.)** → use the
-  **Export Results for TMS** button on the course screen.
+- **Need to resend a result somewhere specific (different folder, share
+  to a co-worker, etc.)** → use the **Export Results for TMS** button
+  on the course screen.
 
 ---
 
@@ -200,7 +218,9 @@ Practice mode lets you re-do questions from lessons you have already passed,
 without affecting any official record. It is the recommended way to refresh
 on weak areas before a re-test.
 
-<img src="screenshots/06_practice_setup_ipad.png" alt="Practice setup screen" width="720">
+<p align="center">
+  <img src="screenshots/06_practice_setup_ipad.png" alt="Practice setup screen" width="300">
+</p>
 
 To start a practice run:
 
@@ -214,7 +234,9 @@ To start a practice run:
      randomizing both the question order and the answer-choice order.
 4. Tap **Start**.
 
-<img src="screenshots/05_pratice_test_question_ipad.png" alt="Practice question" width="720">
+<p align="center">
+  <img src="screenshots/05_pratice_test_question_ipad.png" alt="Practice question" width="300">
+</p>
 
 Practice results are stored locally and feed back into Smart Review's
 weighting, but they never produce a TMS export.
@@ -242,13 +264,15 @@ authenticated encryption) after every state change, retaining the three
 most recent. You can also export a **manual backup** (`.cbtbk` file) any
 time — useful for handing data off to a new iPad.
 
-<img src="screenshots/08_manage_data.png" alt="Manage Data screen" width="720">
+<p align="center">
+  <img src="screenshots/08_manage_data.png" alt="Manage Data screen" width="300">
+</p>
 
 ### Moving to a new iPad or iPhone
 
 1. On the **old** device:
    **Profile → Manage Data → Export Backup**.
-   AirDrop the resulting `.cbtbk` file to the new device.
+   Transfer the resulting `.cbtbk` file to the new device via secure means.
 2. On the **new** device: install C-17 Courseware via TestFlight (same
    steps as above), open the app, then
    **Profile → Manage Data → Restore Backup** and pick the `.cbtbk` file.
@@ -331,10 +355,21 @@ Rare. Try these in order:
 
 ### I forgot my profile name
 
-Profile names are stored only on the device. If you have a recent backup
-(`.cbtbk`), restore it via **Profile → Manage Data → Restore Backup**.
-Otherwise, re-enter your name in the Profile tab — your attempt history
-persists independently of the name field.
+Profile names are stored only on the device.
+
+> **Warning — editing your profile clears course progression and test history.**
+> This is intentional — names appear on TMS exports, so the app refuses
+> to attribute prior attempts to a newly-typed identity. Don't just
+> re-type your name in the Profile tab unless you're starting fresh.
+
+The correct recovery path is **Profile → Manage Data → Restore Backup**
+with a recent `.cbtbk` file (auto-backups are kept in
+`Documents/Backups/` and you can also export a manual backup any time
+from Manage Data). Restore preserves the name, attempt history, mastery
+stats, custom courses, bookmarks — everything.
+
+If you don't have a backup and need to keep working, only then re-enter
+the name and accept that progress resets.
 
 ### TestFlight will not let me install the build
 
@@ -358,13 +393,33 @@ persists independently of the name field.
 
 The fastest paths, in order of usefulness for the developer:
 
-1. **In-app feedback** —
-   **Profile → Submit Feedback** (preferred — automatically attaches the
-   app's activity log so the developer can see exactly what happened).
-2. **TestFlight built-in feedback** — take a screenshot inside C-17
-   Courseware, then tap **Share Beta Feedback** that appears at the
-   top of the screenshot preview. TestFlight delivers screenshots and
-   any optional comment directly to the developer.
+1. **TestFlight built-in feedback** (preferred for visual / "look at
+   this" bug reports) — Apple gives every TestFlight build three ways
+   to send feedback directly to the developer through TestFlight,
+   without leaving the app:
+   - **Screenshot feedback** — take a screenshot inside C-17 Courseware
+     (side button + volume-up on iPad / iPhone). A preview thumbnail
+     appears in the lower-left corner; tap it, mark it up if you want,
+     then tap **Share Beta Feedback** in the top-right corner. Add an
+     optional comment and send. TestFlight forwards the screenshot,
+     comment, device model, iOS version, and the app build number to
+     the developer.
+   - **Crash feedback** — if the app ever crashes on a TestFlight
+     build, TestFlight will prompt you on next launch to share the
+     crash report. Tap **Share** and Apple delivers the symbolicated
+     stack trace, device info, and build number. You can attach an
+     optional comment describing what you were doing.
+   - **In-TestFlight feedback** — open the **TestFlight** app, tap
+     **C-17 Courseware**, scroll to the bottom and tap **Send Beta
+     Feedback**. Same form as the screenshot path but without an
+     attached image. Use this for general comments or feature
+     suggestions.
+2. **In-app feedback** (preferred for log / "something went wrong"
+   reports) — **Profile → Submit Feedback** opens an email draft and
+   automatically attaches the app's activity log so the developer can
+   see exactly what happened. Use this when the TestFlight screenshot
+   path can't capture the issue (e.g., a silent import failure or a
+   missing export).
 3. **Email** — `<j.l.king.1000011@gmail.com>` for anything not covered
    above.
 
@@ -384,4 +439,17 @@ personal data, no analytics, no telemetry.
 
 C-17 Courseware **collects no data and makes no network requests**. All
 profiles, attempts, backups, and imported courses remain on the device. See
-the [privacy policy](privacy.md) for the full disclosure.
+the [privacy policy](https://jamesk1000011.github.io/c-17-courseware-support/privacy.html) for the full disclosure.
+
+## Open source acknowledgments
+
+C-17 Courseware uses [Ruffle](https://ruffle.rs), an open-source Flash
+Player emulator, dual-licensed under MIT and Apache-2.0. See the
+[open source acknowledgments](https://jamesk1000011.github.io/c-17-courseware-support/attribution.html) page for the full credit
+and license notices.
+
+---
+
+<p align="center">
+  <a href="C-17-Courseware-Support.pdf"><strong>Download this page as PDF</strong></a> · for offline use, hand-off, or printing.
+</p>
