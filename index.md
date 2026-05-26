@@ -324,10 +324,6 @@ authenticated encryption) after every state change, retaining the three
 most recent. You can also export a **manual backup** (`.cbtbk` file) any
 time — useful for handing data off to a new iPad.
 
-<p align="center">
-  <img src="screenshots/08_manage_data.png" alt="Manage Data screen" width="300">
-</p>
-
 ### Moving to a new iPad or iPhone
 
 1. On the **old** device:
