@@ -103,6 +103,10 @@ the main tab bar:
      [Moving to a new iPad or iPhone](#moving-to-a-new-ipad-or-iphone)
      section below.
 
+<p align="center">
+  <img src="screenshots/10_user_profile_create_ipad.png" alt="Student Profile sheet on first launch" width="300">
+</p>
+
 After that you land on the tab bar — **Courses**, **Practice**, and
 **Profile**, visible at the top (iPad) or bottom (iPhone) of every
 screen.
@@ -126,7 +130,8 @@ You bring the course `.zip` files from your unit's archive and import them.
 
 ### Get the .zip onto your device
 
-Get the .zip courseware onto your device using secure means (i.e P1Chat).
+Move the course `.zip` to your device using whichever secure file-transfer
+channel your unit prefers (e.g., P1Chat, AirDrop, or a managed file share).
 
 ### Import it
 
@@ -152,29 +157,61 @@ and modules expanded inside. You can import as many courses as you need.
 
 ## Working through a lesson
 
-Tap any course in the list to see its lessons.
+Tap any course in the list to see its lessons. Each lesson row carries a
+color-coded status badge so you can see at a glance where it stands:
+
+| Color | Status | What it means |
+|---|---|---|
+| Grey | *Test not attempted* | Some modules still need to be reviewed |
+| Blue | *Test Available* | All modules reviewed; ready for the graded test |
+| Orange | *Remediation Required* | One failed attempt; a remediation retake is offered |
+| Red | *Locked — Reload Required* | Two failed attempts; tap to clear and start fresh |
+| Green | *Passed* | Test passed (either on first attempt or after remediation) |
+
+If you exited a lesson before finishing, a small blue **bookmark badge**
+on the lesson row shows where you stopped (for example, "Slide 3/12"). The
+next time you launch, the lesson resumes from that point.
 
 <p align="center">
   <img src="screenshots/03_lesson_list_ipad.png" alt="Lesson list inside a course" width="300">
 </p>
 
-Tap a lesson to open it. You will see:
+Tap a lesson to open its detail screen. You will see:
 
 - The **modules** that make up the lesson (each one is a self-contained
-  content block — graphics, narration, interactions).
-- The lesson's **graded test**.
-- A summary of your attempt history on this lesson.
+  content block — graphics, narration, interactions). Modules are listed
+  for reference only; you do not tap them individually. The graded test
+  is not shown as a row — it runs automatically at the end of the module
+  sequence after you launch.
+- A **Test History** card listing each attempt's score, once you have at
+  least one attempt on file.
 
 <p align="center">
-  <img src="screenshots/04_lesson_detail_ipad.png" alt="Lesson detail with modules and test" width="300">
+  <img src="screenshots/09_Launch_lesson_ipad.png" alt="Lesson detail with modules and blue Launch Lesson button" width="300">
 </p>
 
-Tap a **module** to play it. Modules run natively inside the app — no Flash
-player, no external browser, no network call. When you reach the end of a
-module, tap **Exit** in the corner to return to the lesson list.
+To play the lesson, tap the **launch button** at the bottom of the screen.
+This is the only way to enter the player. The button is color-coded to
+match the lesson's current state:
 
-You can leave and re-open a module at any time. Progress is restored to where
-you left off.
+| Color | Label | When it appears |
+|---|---|---|
+| Blue | *Launch Lesson* | Initial state — no modules reviewed yet |
+| Blue | *Resume Lesson* | Some modules reviewed or a bookmark exists; subtitle shows the next module or last page |
+| Orange | *Launch Remediation* | One failed test attempt — retake the missed questions after a guided review; subtitle reads "Final attempt" |
+| Red | *Reset Lesson* | Both attempts used — tapping opens a confirmation prompt before clearing the lesson's progress |
+| Green | *Browse Passed Lesson* | Test passed — re-open in browse mode for review |
+
+Tapping the launch button opens the lesson player. The player sequences
+through every module and ends with the graded test — no Flash player, no
+external browser, no network call. Tap the **X** in the top corner to
+exit at any time; your position is bookmarked so the next launch resumes
+where you left off.
+
+After you pass the test the launch button turns green ("Browse Passed
+Lesson"). Tapping it re-opens the lesson in **browse mode** — free
+navigation through every module with the test locked out (the test
+cannot be re-taken once passed).
 
 ---
 
@@ -268,10 +305,14 @@ The **Profile** tab is the home for everything that is not lesson content:
 
 - **Edit profile** — your last name and middle initial.
 - **Manage Data** — backup, restore, export, and clean-slate options.
-- **Submit Feedback** — opens an email draft with the app log attached. You
-  can review or redact before sending.
-- **Submit Testing Log** — TestFlight builds only. A one-tap way to send a
-  recent activity log to the developer.
+- **Submit Feedback** — opens an email draft addressed to the developer.
+  Write your message and send.
+- **Export App Logs** — share the app's activity log to any app that can
+  accept a file (Mail, Outlook, Gmail, Files, Notes, etc.). To attach the
+  log to a feedback email, tap **Export App Logs** *first* and pick your
+  mail app — it'll create a new draft with the log file already attached;
+  write your message in that draft and send. iOS's `mailto:` URLs cannot
+  carry attachments natively, which is why the two steps are split.
 - **Help tours** — guided coachmark walkthroughs of each screen if you want
   a refresher.
 - **Theme** and **alternate app icon** — cosmetic preferences.
@@ -347,8 +388,9 @@ dated zip appears under
    course screen at any time — that uses the share sheet path and lets you
    save a fresh `Data.zip` wherever you want.
 4. If the file still does not appear, use
-   **Profile → Submit Feedback → Attach Logs** and the developer will
-   triage.
+   **Profile → Export App Logs** to share the activity log with the
+   developer (see [Contact &amp; feedback](#contact--feedback) for the
+   two-step flow).
 
 ### The app says my course `.zip` is unsupported
 
@@ -358,8 +400,9 @@ in the import log.
 1. Re-download the `.zip` from official sources to rule out a corrupted
    transfer.
 2. Try importing again.
-3. If it still fails, use **Profile → Submit Feedback → Attach Logs** to
-   share the import log.
+3. If it still fails, use **Profile → Export App Logs** to share the
+   import log (see [Contact &amp; feedback](#contact--feedback) for the
+   two-step flow).
 
 ### The app crashes on launch
 
@@ -434,11 +477,14 @@ The fastest paths, in order of usefulness for the developer:
      attached image. Use this for general comments or feature
      suggestions.
 2. **In-app feedback** (preferred for log / "something went wrong"
-   reports) — **Profile → Submit Feedback** opens an email draft and
-   automatically attaches the app's activity log so the developer can
-   see exactly what happened. Use this when the TestFlight screenshot
-   path can't capture the issue (e.g., a silent import failure or a
-   missing export).
+   reports) — **Profile → Submit Feedback** opens an email draft to
+   the developer. For log-attached reports, tap **Profile → Export
+   App Logs** *first* and pick your mail app — it creates a new
+   draft with the activity log already attached, then write your
+   message in that draft. The two steps stay separate because
+   iOS's `mailto:` URLs can't carry attachments. Use this path
+   when the TestFlight screenshot path can't capture the issue
+   (e.g., a silent import failure or a missing export).
 3. **Email** — `<j.l.king.1000011@gmail.com>` for anything not covered
    above.
 
@@ -449,7 +495,7 @@ When reporting a problem, include:
   tab and on the TestFlight app's page for C-17 Courseware).
 - A short description of what you were doing when the issue occurred.
 
-Logs attached via **Submit Feedback** are local activity logs only — no
+Logs shared via **Export App Logs** are local activity logs only — no
 personal data, no analytics, no telemetry.
 
 ---

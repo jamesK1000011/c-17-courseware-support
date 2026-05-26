@@ -44,7 +44,7 @@ You can export any of this data yourself via the in-app **Manage Data** screen, 
 
 ## What you choose to share
 
-The in-app **Submit Feedback** button (and the **Submit Testing Log** button on TestFlight builds) opens your default mail app with a pre-filled message draft. We see only what you choose to send to the support email address; we do not capture or relay anything in the background. You may delete attached logs from the draft before sending.
+The in-app **Submit Feedback** button (and the **Submit Testing Log** button on TestFlight builds) opens your default mail app with a pre-filled message draft. We see only what you choose to send to the support email address; we do not capture or relay anything in the background. The separate **Export App Logs** button lets you share the app's activity log to any app that accepts files (Mail, Outlook, Gmail, Files, etc.); when used with a mail app, the resulting draft is yours to review or redact before sending.
 
 On TestFlight builds, Apple's own **TestFlight feedback** mechanism (the prompt that appears after you take a screenshot inside the app) is delivered directly to the developer via Apple. That submission is governed by Apple's standard TestFlight terms; the developer receives only the screenshot and any optional comment you add. See <https://www.apple.com/legal/internet-services/itunes/testflight.html> for Apple's full TestFlight terms.
 
