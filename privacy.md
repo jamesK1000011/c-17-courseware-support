@@ -40,7 +40,7 @@ The following data is stored locally on your iPad or iPhone and is never transmi
 - Encrypted local backups of the above (AES-GCM authenticated encryption).
 - App preferences (theme, alternate app icon, debug flags on Beta builds only).
 
-You can export any of this data yourself via the in-app **Manage Data** screen, AirDrop a backup to another device, or wipe everything via **Clean Slate**. The app does not transmit any of this on your behalf.
+You can export any of this data yourself via the in-app **Manage Data** screen, share a backup to another device through the system share sheet, or wipe everything via **Clean Slate**. The app does not transmit any of this on your behalf.
 
 ## What you choose to share
 

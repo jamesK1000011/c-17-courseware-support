@@ -13,9 +13,11 @@ description: Install, import courses, take tests, export to TMS.
 </div>
 
 C-17 Courseware is a native iPad and iPhone app for running C-17 Phase CBT
-training packages. It imports the same course `.zip` files your unit already
-distributes, plays the lessons on-device (no Flash, no desktop player), tracks
-your attempts, and exports test results in the standard **TMS** format.
+training packages. It imports the same course packages your unit already
+distributes — either the **`.zip`** course bundle or the original **`.iso`**
+CD image straight from the archive — plays the lessons on-device (no Flash,
+no desktop player), tracks your attempts, and exports test results in the
+standard **TMS** format.
 
 This page is the support reference for stakeholders running the TestFlight
 build. If you have never installed a TestFlight app before, the
@@ -126,18 +128,26 @@ screen.
 ## Loading your courses
 
 C-17 Courseware ships **empty** — it does not include any training content.
-You bring the course `.zip` files from your unit's archive and import them.
+You bring the course package from your unit's archive and import it. The
+app accepts two formats:
 
-### Get the .zip onto your device
+- **`.zip`** — the extracted course bundle, the same file already used by
+  the desktop player.
+- **`.iso`** — the original CD image straight from the archive. The app
+  unwraps the inner course zip automatically; no desktop extraction step
+  needed.
 
-Move the course `.zip` to your device using whichever secure file-transfer
-channel your unit prefers (e.g., P1Chat, AirDrop, or a managed file share).
+### Get the package onto your device
+
+Move the `.zip` or `.iso` to your device using whichever secure
+file-transfer channel your unit prefers (e.g., P1Chat or a managed
+file share).
 
 ### Import it
 
 1. Open C-17 Courseware and tap the **Courses** tab.
 2. Tap the **import** button — the down-arrow icon in the top toolbar.
-3. Pick the `.zip` in the file picker.
+3. Pick the `.zip` or `.iso` in the file picker.
 
 <p align="center">
   <img src="screenshots/01_Import_ipad.png" alt="Importing a course" width="300">
@@ -388,13 +398,13 @@ dated zip appears under
    developer (see [Contact &amp; feedback](#contact--feedback) for the
    two-step flow).
 
-### The app says my course `.zip` is unsupported
+### The app says my course package is unsupported
 
 The app validates course structure on import. The exact failure reason is
 in the import log.
 
-1. Re-download the `.zip` from official sources to rule out a corrupted
-   transfer.
+1. Re-download the `.zip` or `.iso` from official sources to rule out a
+   corrupted transfer.
 2. Try importing again.
 3. If it still fails, use **Profile → Export App Logs** to share the
    import log (see [Contact &amp; feedback](#contact--feedback) for the
