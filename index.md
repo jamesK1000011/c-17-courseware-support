@@ -326,6 +326,18 @@ The **Profile** tab is the home for everything that is not lesson content:
 - **Help tours** — guided coachmark walkthroughs of each screen if you want
   a refresher.
 - **Theme** and **alternate app icon** — cosmetic preferences.
+- **Player settings** — tune how lesson visuals are drawn:
+  - **Image Resolution** (Compact / Standard / High / Maximum) caps how
+    large embedded course images get decoded. Defaults to **Standard**,
+    which works well on iPad. Pick **Compact** on older iPhones or iPad
+    mini for more memory headroom, or **High** / **Maximum** on a larger
+    screen or external display for sharper images.
+  - **Render Quality** (Low / Medium / High) controls how crisply the
+    Flash player draws each frame. Default is **High**.
+  - **Renderer** (Standard / Best Quality / Software) picks which graphics
+    backend the player uses. Default **Standard** is best for most iPads;
+    the others are escape valves if a course has unusual visual effects
+    or you suspect a graphics issue.
 
 ### Backups
 
